@@ -1,0 +1,16 @@
+/*Extends*/
+
+
+%menu-style {
+    background-color: black ;
+    height: 85px;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 1s;
+}
+
+%bg-gral{
+    background-image: linear-gradient(black, gray);
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    bottom: 10px;
+    }

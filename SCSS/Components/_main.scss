@@ -1,0 +1,49 @@
+@import '../Base/variable';
+@import '../Base/mixin';
+@import '../Base/extend';
+
+/*Main*/
+
+body{
+    background-image: linear-gradient(gray, black);
+    background-attachment: fixed;
+    background-position: center;
+    
+    .logo-nav{
+        position: relative;
+        bottom: 5px;
+    }
+    .menu-flotante{
+        .home{
+            @extend %menu-style;
+            &:hover{
+                transform: translateY(30px)
+            }
+        }
+        .novedades{
+            @extend %menu-style;
+            &:hover{
+                transform: translateY(30px)
+            }
+        }
+        .descargas{
+            @extend %menu-style;
+            &:hover{
+                transform: translateY(30px)
+            }
+        }
+        .login{
+            @extend %menu-style;
+            &:hover{
+                transform: translateY(30px)
+            }
+        }
+        .reg{
+            @extend %menu-style;
+            &:hover{
+                transform: translateY(30px)
+            }
+        }
+    }
+}
+

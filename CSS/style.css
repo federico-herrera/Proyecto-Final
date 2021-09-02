@@ -1,0 +1,157 @@
+/*sass*/
+/*Extends*/
+body .menu-flotante .reg, body .menu-flotante .login, body .menu-flotante .descargas, body .menu-flotante .novedades, body .menu-flotante .home {
+  background-color: black;
+  height: 85px;
+  border-radius: 10px 10px 0px 0px;
+  transition: all 1s;
+}
+
+.login-form, .registro {
+  background-image: linear-gradient(black, gray);
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+/*Main*/
+body {
+  background-image: linear-gradient(gray, black);
+  background-attachment: fixed;
+  background-position: center;
+}
+body .logo-nav {
+  position: relative;
+  bottom: 5px;
+}
+body .menu-flotante .home:hover {
+  transform: translateY(30px);
+}
+body .menu-flotante .novedades:hover {
+  transform: translateY(30px);
+}
+body .menu-flotante .descargas:hover {
+  transform: translateY(30px);
+}
+body .menu-flotante .login:hover {
+  transform: translateY(30px);
+}
+body .menu-flotante .reg:hover {
+  transform: translateY(30px);
+}
+
+#social-media ul {
+  list-style: none;
+  width: 80em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 25px;
+}
+#social-media .twitter img {
+  width: 2rem;
+  height: 2rem;
+}
+#social-media .ig img {
+  width: 2rem;
+  height: 2rem;
+}
+#social-media .face img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/*Extends*/
+body .menu-flotante .home, body .menu-flotante .novedades, body .menu-flotante .descargas, body .menu-flotante .login, body .menu-flotante .reg {
+  background-color: black;
+  height: 85px;
+  border-radius: 10px 10px 0px 0px;
+  transition: all 1s;
+}
+
+.login-form, .registro {
+  background-image: linear-gradient(black, gray);
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  bottom: 10px;
+}
+
+.carousel-home {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+  border-radius: 10px 10px;
+  position: relative;
+  bottom: 12px;
+}
+
+.card-bg {
+  background-color: rgba(245, 245, 220, 0);
+}
+
+.pokemon {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+  border-radius: 10px 10px;
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 10px;
+}
+
+.caja-pkmn {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0 25px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 35px 0px 35px 0px;
+}
+
+.pkmn-logo img {
+  width: 300px;
+  display: inline;
+}
+
+.magic {
+  background-color: black;
+  position: relative;
+  bottom: 12px;
+  border-radius: 10px 0px 10px 0px;
+  color: white;
+}
+
+.magic-images {
+  background-image: linear-gradient(black, gray);
+  padding-top: 10px;
+  position: relative;
+  bottom: 28px;
+}
+
+#pokemon {
+  color: white;
+}
+
+.texto-slider-pkmn {
+  position: relative;
+  top: 20px;
+}
+
+.texto-slider-pkmn-2 {
+  position: relative;
+  top: 45px;
+  color: black;
+}
+
+/*Reg & Login*/
+.registro {
+  position: relative;
+  bottom: 10px;
+}
+
+.login-form {
+  position: relative;
+  bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

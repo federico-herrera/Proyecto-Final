@@ -1,0 +1,14 @@
+@import '../Base/variable';
+@import '../Base/mixin';
+@import '../Base/extend';
+
+.carousel-home{
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+    border-radius: 10px 10px;
+    position: relative;
+    bottom: 12px;
+}
+
+.card-bg{
+    background-color: rgba(245, 245, 220, 0);
+}
