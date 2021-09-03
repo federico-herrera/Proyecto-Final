@@ -58,16 +58,125 @@
                             <a class="nav-link active" href="descargas.html" tabindex="-1" aria-disabled="true">Descargas</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link active" href="descargas.html" tabindex="-1" aria-disabled="true">Registrate</a>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#Modal-register">
+                                    Registrate
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="Modal-register" tabindex="-1" aria-labelledby="Modal-registerLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="Modal-registerLabel">Registrate</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!--Form-->
+                                                <section class="text-dark container">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Apellido</label>
+                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div>
+                                                            <div class="mb-3">
+                                                                <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+                                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                                <div id="emailHelp" class="form-text">Nunca vamos a compartir informacion con terceros.</div>
+                                                            </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Confirme Contraseña</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
+                                                        <button type="submit" class="boton btn btn-dark">Registrate</button>
+                                                    </form>
+                                                </section>
+                                                <!--Fin  Form-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link active" href="descargas.html" tabindex="-1" aria-disabled="true">Logueate</a>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#Modal-login">
+                                    Login
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="Modal-login" tabindex="-1" aria-labelledby="Modal-loginLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="Modal-loginLabel">Logueate</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!--Form-->
+                                                    <section class="text-dark container">
+                                                        <form>
+                                                            <div class="mb-3">
+                                                                <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+                                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                                            </div>
+                                                            <div class="mb-3 form-check">
+                                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                                <label class="text-dark form-check-label" for="exampleCheck1">NO mantener sesion iniciada</label>
+                                                            </div>
+                                                                <button type="submit" class="boton btn btn-dark">Ingresar</button>
+                                                        </form>
+                                                    </section>
+                                                <!--Fin Form-->
+                                            </div>
+                                        </div>
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title text-dark" id="exampleModalLabel">Logueate</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!--Form-->
+                                                <section class="text-dark container">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
+                                                        <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                            <label class="text-dark form-check-label" for="exampleCheck1">NO mantener sesion iniciada</label>
+                                                        </div>
+                                                            <button type="submit" class="boton btn btn-dark">Ingresar</button>
+                                                    </form>
+                                                </section>
+                                            <!--Fin Form-->
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
-            </div>
-        </nav>
-    </header>
+                </div>
+            </nav>
+        </header>
 
 <!--Seccion Novedades-->
     <section class=magic>
