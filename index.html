@@ -22,8 +22,7 @@
 
 <body>
     <header>
-        <nav class="menu-flotante navbar text-white navbar-expand-lg navbar-dark">
-            <div class="container-fluid">
+        <nav class="menu-flotante navbar text-white navbar-expand-lg navbar-dark d-flex justify-content-evenly">            <div class="container-fluid">
                 <a class="logo-nav navbar-brand" href="#"> <img src="images/Logo.png" alt="Game Paradise Logo" width="95" height="80"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,22 +38,6 @@
                         <li class="nav-item">
                             <a class="nav-link active" href="novedades.html">Novedades</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pokemon</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Pokemon</a></li>
-                                <li><a class="dropdown-item" href="#">Trainer</a></li>
-                                <li><a class="dropdown-item" href="#">Energias</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Magic The Gathering</a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Criaturas</a></li>
-                                    <li><a class="dropdown-item" href="#">Hechizos/Instant</a></li>
-                                    <li><a class="dropdown-item" href="#">Tierras</a></li>
-                                </ul>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="descargas.html" tabindex="-1" aria-disabled="true">Descargas</a>
                         </li>
@@ -63,6 +46,7 @@
                             <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#Modal-register">
                                 Registrate
                             </button>
+                            <!-- Modal -->
                             <!-- Modal -->
                             <div class="modal fade" id="Modal-register" tabindex="-1" aria-labelledby="Modal-registerLabel" aria-hidden="true">
                                 <div class="modal-dialog">
@@ -143,33 +127,33 @@
                                     </div>
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title text-dark" id="exampleModalLabel">Logueate</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title text-dark" id="exampleModalLabel">Logueate</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <!--Form-->
+                                                <section class="text-dark container">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
+                                                        <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                            <label class="text-dark form-check-label" for="exampleCheck1">NO mantener sesion iniciada</label>
+                                                        </div>
+                                                            <button type="submit" class="boton btn btn-dark">Ingresar</button>
+                                                    </form>
+                                                </section>
+                                            <!--Fin Form-->
+                                        </div>
                                     </div>
-                                    <div class="modal-body">
-                                        <!--Form-->
-                                            <section class="text-dark container">
-                                                <form>
-                                                    <div class="mb-3">
-                                                        <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                                                        <input type="password" class="form-control" id="exampleInputPassword1">
-                                                    </div>
-                                                    <div class="mb-3 form-check">
-                                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                        <label class="text-dark form-check-label" for="exampleCheck1">NO mantener sesion iniciada</label>
-                                                    </div>
-                                                        <button type="submit" class="boton btn btn-dark">Ingresar</button>
-                                                </form>
-                                            </section>
-                                        <!--Fin Form-->
-                                    </div>
-                                </div>
                                 </div>
                             </div>
                         </li>
@@ -179,7 +163,7 @@
         </nav>
     </header>
 
-<!--Intro de TCG-->
+    <!--Intro de TCG-->
     <section class="carousel-home">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -231,9 +215,9 @@
             "Yugi-OH TCG" y "Pokemon TCG".</p>
         </article>
     </section>
-<!--Fin intro TCG-->
+    <!--Fin intro TCG-->
 
-<!--Card Ventas-->
+    <!--Card Ventas-->
     <section class="container">
         <h2 class="text-white">Ultimas Ventas</h2>
         <div class="container ">
@@ -322,9 +306,9 @@
             </div>
         </div>
     </section>
-<!--Card Ventas-->
+    <!--Card Ventas-->
 
-<!--formulario de contacto-->
+    <!--formulario de contacto-->
     <section id=contactanos>
         <div class="contactanos container">
             <div class="mb-3">
@@ -342,40 +326,40 @@
             <a href="#" class="btn btn-secondary">Enviar</a>
         </div>
     </section>
-<!-- Fin formulario de contacto-->
+    <!-- Fin formulario de contacto-->
 
 <hr>
 
-<!--Footer-->
-<footer id=social-media>
-    <div class="footer-images d-flex p-2 bd-highlight justify-content-evenly container-fluid">
-        
-        <a href=""><img src="/Images/Magic-logo-b&W.png" alt="Magic the gathering logo"></a>
-        <div class="separador-vertical"></div>
-        <a href=""><img src="/Images/Pokemon-logo-b&W.png" alt="pokemon logo"></a>
-        <div class="separador-vertical"></div>
-        <a href=""><img src="/Images/activision-blizzard-B&W.png" alt="Blizzard logo"></a>
-        <div class="separador-vertical"></div>
-        <a href=""><img src="/Images/wizards-of-the-coast-logo-black-and-white.png" alt="wizzards logo"></a>
-        <div class="separador-vertical"></div>
-        <a href="#index.html"><img src="/Images/Logo.png" alt="TCG paradise"></a>
-        
-    </div>
-    <hr>
-    <div class="container d-flex justify-content-evenly">
-        <div class="row">
-        <div class="face col">
-            <a href=""><img src="Images/Facebook.png" alt="Logo Facebook"></a>
+    <!--Footer-->
+    <footer id=social-media>
+        <div class="footer-images d-flex p-2 bd-highlight justify-content-evenly container-fluid">
+            
+            <a href="https://magic.wizards.com/es"><img src="/Images/Magic-logo-b&W.png" alt="Magic the gathering logo"></a>
+            <div class="separador-vertical"></div>
+            <a href="https://www.pokemon.com/us/"><img src="/Images/Pokemon-logo-b&W.png" alt="pokemon logo"></a>
+            <div class="separador-vertical"></div>
+            <a href="#index.html"><img src="/Images/Logo.png" alt="TCG paradise"></a>
+            <div class="separador-vertical"></div>
+            <a href="https://company.wizards.com/es"><img src="/Images/wizards-of-the-coast-logo-black-and-white.png" alt="wizzards logo"></a>
+            <div class="separador-vertical"></div>
+            <a href="https://www.blizzard.com/es-es/"><img src="/Images/activision-blizzard-B&W.png" alt="Blizzard logo"></a>
+            
         </div>
-        <div class="ig col">
-            <a href=""><img src="Images/Instagram.png" alt="Logo Instagram"></a>
+        <hr>
+        <div class="container d-flex justify-content-evenly">
+            <div class="row">
+                <div class="face col">
+                    <a href=""><img src="Images/Facebook.png" alt="Logo Facebook"></a>
+                </div>
+                <div class="ig col">
+                    <a href=""><img src="Images/Instagram.png" alt="Logo Instagram"></a>
+                </div>
+                <div class="twitter col">
+                    <a href=""><img src="Images/png-transparent-computer-icons-social-media-logo-twitter-social-media-blue-logo-social-media-thumbnail.png" alt="Logo Twitter"></a>
+                </div>
+            </div>
         </div>
-        <div class="twitter col">
-            <a href=""><img src="Images/png-transparent-computer-icons-social-media-logo-twitter-social-media-blue-logo-social-media-thumbnail.png" alt="Logo Twitter"></a>
-        </div>
-        </div>
-    </div>
-</footer>
+    </footer>
     <!--Fin Footer-->
     <!--BS JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>

@@ -15,6 +15,7 @@ body{
     }
     .menu-flotante{
         .home{
+            
             @extend %menu-style;
             &:hover{
                 transform: translateY(30px)
