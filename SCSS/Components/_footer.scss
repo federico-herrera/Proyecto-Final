@@ -1,23 +1,29 @@
 #social-media{
-    ul{
-        list-style: none;
-        width: 80em;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        position: relative;
-        top: 25px;
-    }
-    .twitter img{
-        width: 2rem;
-        height: 2rem;
-    }
-    .ig img{
-        width: 2rem;
-        height: 2rem;
-    }
-    .face img{
-        width: 2rem;
-        height: 2rem;
-    }
+
+                ul{
+                    list-style: none;
+                    width: 80em;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    position: relative;
+                    top: 25px;
+                }
+                .twitter img{
+                    width: 2rem;
+                    height: 2rem;
+                }
+                .ig img{
+                    width: 2rem;
+                    height: 2rem;
+                }
+                .face img{
+                    width: 2rem;
+                    height: 2rem;
+                }
+                .footer-images img{
+                    width: 9rem;
+                    height: 5rem;
+                    
+                }
 }

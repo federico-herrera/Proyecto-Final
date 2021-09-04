@@ -7,13 +7,6 @@ body .menu-flotante .reg, body .menu-flotante .login, body .menu-flotante .desca
   transition: all 1s;
 }
 
-.login-form, .registro {
-  background-image: linear-gradient(black, gray);
-  border-radius: 10px 10px 10px 10px;
-  position: relative;
-  bottom: 10px;
-}
-
 /*Main*/
 body {
   background-image: linear-gradient(gray, black);
@@ -61,6 +54,10 @@ body .menu-flotante .reg:hover {
   width: 2rem;
   height: 2rem;
 }
+#social-media .footer-images img {
+  width: 9rem;
+  height: 5rem;
+}
 
 /*Extends*/
 body .menu-flotante .home, body .menu-flotante .novedades, body .menu-flotante .descargas, body .menu-flotante .login, body .menu-flotante .reg {
@@ -68,13 +65,6 @@ body .menu-flotante .home, body .menu-flotante .novedades, body .menu-flotante .
   height: 85px;
   border-radius: 10px 10px 0px 0px;
   transition: all 1s;
-}
-
-.login-form, .registro {
-  background-image: linear-gradient(black, gray);
-  border-radius: 10px 10px 10px 10px;
-  position: relative;
-  bottom: 10px;
 }
 
 .carousel-home {
@@ -141,17 +131,6 @@ body .menu-flotante .home, body .menu-flotante .novedades, body .menu-flotante .
   position: relative;
   top: 45px;
   color: black;
-}
-
-/*Reg & Login*/
-.registro {
-  position: relative;
-  bottom: 10px;
-}
-
-.login-form {
-  position: relative;
-  bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
