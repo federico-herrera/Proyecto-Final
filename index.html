@@ -23,7 +23,7 @@
 <body>
     <header>
         <nav class="menu-flotante navbar text-white navbar-expand-lg navbar-dark d-flex justify-content-evenly">            <div class="container-fluid">
-                <a class="logo-nav navbar-brand" href="#"> <img src="images/Logo.png" alt="Game Paradise Logo" width="95" height="80"></a>
+                <a class="logo-nav navbar-brand" href="#"> <img src="/Images/Logo.png" alt="Game Paradise Logo" width="95" height="80"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -32,127 +32,129 @@
                         <li class="nav-item">
                             <a class="home nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="item-nav nav-item">
                             <a class="nav-link active" aria-current="page" href="#contactanos">Contactanos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="novedades.html">Novedades</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="item-nav nav-item">
                             <a class="nav-link active" href="descargas.html" tabindex="-1" aria-disabled="true">Descargas</a>
                         </li>
-                        <li class="nav-item">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#Modal-register">
-                                Registrate
-                            </button>
-                            <!-- Modal -->
-                            <!-- Modal -->
-                            <div class="modal fade" id="Modal-register" tabindex="-1" aria-labelledby="Modal-registerLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5 class="modal-title text-dark" id="Modal-registerLabel">Registrate</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <!--Form-->
-                                            <section class="text-dark container">
-                                                <form>
-                                                    <div class="mb-3">
-                                                    <label for="exampleInputEmail1" class="form-label">Nombre</label>
-                                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="exampleInputEmail1" class="form-label">Apellido</label>
-                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                    </div>
+                        <li class="item-nav nav-item">
+                            
+                                <!-- Button trigger modal -->
+                                <button type="modal-reg button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#Modal-register">
+                                    Registrate
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade" id="Modal-register" tabindex="-1" aria-labelledby="Modal-registerLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                    <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="Modal-registerLabel">Registrate</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!--Form-->
+                                                <section class="text-dark container">
+                                                    <form>
                                                         <div class="mb-3">
-                                                            <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
-                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                            <div id="emailHelp" class="form-text">Nunca vamos a compartir informacion con terceros.</div>
+                                                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                                         </div>
-                                                    <div class="mb-3">
-                                                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                                                        <input type="password" class="form-control" id="exampleInputPassword1">
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="exampleInputPassword1" class="form-label">Confirme Contraseña</label>
-                                                        <input type="password" class="form-control" id="exampleInputPassword1">
-                                                    </div>
-                                                    <button type="submit" class="boton btn btn-dark">Registrate</button>
-                                                </form>
-                                            </section>
-                                            <!--Fin  Form-->
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Apellido</label>
+                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                        </div>
+                                                            <div class="mb-3">
+                                                                <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+                                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                                <div id="emailHelp" class="form-text">Nunca vamos a compartir informacion con terceros.</div>
+                                                            </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Confirme Contraseña</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
+                                                        <button type="submit" class="boton btn btn-dark">Registrate</button>
+                                                    </form>
+                                                </section>
+                                                <!--Fin  Form-->
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#Modal-login">
-                                Login
-                            </button>
-                            
-                            <!-- Modal -->
-                            <div class="modal fade" id="Modal-login" tabindex="-1" aria-labelledby="Modal-loginLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5 class="modal-title text-dark" id="Modal-loginLabel">Logueate</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </li>
+                            <li class="nav-item">
+                                <!-- Button trigger modal -->
+                                <button type="modal-log button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#Modal-login">
+                                    Login
+                                </button>
+                                
+                                <!-- Modal -->
+                                <div class="modal fade" id="Modal-login" tabindex="-1" aria-labelledby="Modal-loginLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="Modal-loginLabel">Logueate</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!--Form-->
+                                                    <section class="text-dark container">
+                                                        <form>
+                                                            <div class="mb-3">
+                                                                <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+                                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                                            </div>
+                                                            <div class="mb-3 form-check">
+                                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                                <label class="text-dark form-check-label" for="exampleCheck1">NO mantener sesion iniciada</label>
+                                                            </div>
+                                                                <button type="submit" class="boton btn btn-dark">Ingresar</button>
+                                                        </form>
+                                                    </section>
+                                                <!--Fin Form-->
+                                            </div>
                                         </div>
-                                        <div class="modal-body">
-                                            <!--Form-->
-                                                <section class="text-dark container">
-                                                    <form>
-                                                        <div class="mb-3">
-                                                            <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
-                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                                                            <input type="password" class="form-control" id="exampleInputPassword1">
-                                                        </div>
-                                                        <div class="mb-3 form-check">
-                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                            <label class="text-dark form-check-label" for="exampleCheck1">NO mantener sesion iniciada</label>
-                                                        </div>
-                                                            <button type="submit" class="boton btn btn-dark">Ingresar</button>
-                                                    </form>
-                                                </section>
-                                            <!--Fin Form-->
+                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title text-dark" id="exampleModalLabel">Logueate</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <!--Form-->
+                                                    <section class="text-dark container">
+                                                        <form>
+                                                            <div class="mb-3">
+                                                                <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+                                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                            </div>
+                                                            <div class="mb-3">
+                                                                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                                            </div>
+                                                            <div class="mb-3 form-check">
+                                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                                <label class="text-dark form-check-label" for="exampleCheck1">NO mantener sesion iniciada</label>
+                                                            </div>
+                                                                <button type="submit" class="boton btn btn-dark">Ingresar</button>
+                                                        </form>
+                                                    </section>
+                                                <!--Fin Form-->
+                                            </div>
                                         </div>
-                                    </div>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5 class="modal-title text-dark" id="exampleModalLabel">Logueate</h5>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            <!--Form-->
-                                                <section class="text-dark container">
-                                                    <form>
-                                                        <div class="mb-3">
-                                                            <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
-                                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                                        </div>
-                                                        <div class="mb-3">
-                                                            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                                                            <input type="password" class="form-control" id="exampleInputPassword1">
-                                                        </div>
-                                                        <div class="mb-3 form-check">
-                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                            <label class="text-dark form-check-label" for="exampleCheck1">NO mantener sesion iniciada</label>
-                                                        </div>
-                                                            <button type="submit" class="boton btn btn-dark">Ingresar</button>
-                                                    </form>
-                                                </section>
-                                            <!--Fin Form-->
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>

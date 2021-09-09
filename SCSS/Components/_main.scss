@@ -14,20 +14,23 @@ body{
         bottom: 5px;
     }
     .menu-flotante{
+        
         .home{
-            
+        
             @extend %menu-style;
             &:hover{
                 transform: translateY(30px)
             }
         }
         .novedades{
+        
             @extend %menu-style;
             &:hover{
                 transform: translateY(30px)
             }
         }
         .descargas{
+        
             @extend %menu-style;
             &:hover{
                 transform: translateY(30px)
@@ -40,11 +43,13 @@ body{
             }
         }
         .reg{
+        
             @extend %menu-style;
             &:hover{
                 transform: translateY(30px)
             }
         }
+    
     }
 }
 
