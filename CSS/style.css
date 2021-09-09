@@ -17,6 +17,10 @@ body .logo-nav {
   position: relative;
   bottom: 5px;
 }
+body .menu-flotante li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 body .menu-flotante .home:hover {
   transform: translateY(30px);
 }
