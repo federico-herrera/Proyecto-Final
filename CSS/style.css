@@ -36,6 +36,12 @@ body .menu-flotante .login:hover {
 body .menu-flotante .reg:hover {
   transform: translateY(30px);
 }
+body .img-footer {
+  transition: all 1s;
+}
+body .img-footer:hover {
+  transform: scale(1.1);
+}
 
 #social-media {
   padding-bottom: 20px;

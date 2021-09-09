@@ -56,5 +56,11 @@ body{
         }
     
     }
+    .img-footer{
+        transition: all 1s;
+    }
+    .img-footer:hover{
+        transform: scale(1.1);
+        }
 }
 
